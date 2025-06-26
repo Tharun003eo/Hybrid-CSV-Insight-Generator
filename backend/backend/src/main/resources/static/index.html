@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InsightIQ</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <div class="page-container">
+
+    <!-- HEADER / NAV BAR -->
+    <header class="top-nav">
+      <div class="nav-left">
+        <img src="assets/Logo.png" alt="Logo" class="logo" />
+        <div class="title-group">
+          <h1 class="title">InsightIQ</h1>
+          <p class="tagline">
+            Upload. Visualize. Decide. Unlock powerful business insights from your spreadsheets in just a few clicks.
+          </p>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button class="lang-btn" aria-label="Language Selection">Language ⬇</button>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-body">
+
+      <!-- Background -->
+      <div class="background-image"></div>
+
+      <!-- Selection Section -->
+      <section class="button-split-section">
+        <div class="split-box left-box">
+          <button class="big-button" onclick="toggleCategory()">Select Category</button>
+        </div>
+        <div class="or-divider">OR</div>
+        <div class="split-box right-box">
+          <button class="big-button" onclick="goToDrive()">My Insights Drive</button>
+        </div>
+      </section>
+
+      <!-- CATEGORY OPTIONS -->
+      <div id="category-box" class="category-box hidden">
+        <h3>Select a Category</h3>
+        <div class="category-grid">
+          <div class="category-tile" onclick="selectCategory('Medical')">Medical</div>
+          <div class="category-tile" onclick="selectCategory('Product')">Product</div>
+          <div class="category-tile" onclick="selectCategory('Retail')">Retail</div>
+          <div class="category-tile" onclick="selectCategory('Finance')">Finance</div>
+          <div class="category-tile" onclick="selectCategory('Others')">Others</div>
+        </div>
+      </div>
+
+      <!-- FILE UPLOAD SECTION -->
+      <div id="upload-box" class="upload-box hidden">
+        <div id="selected-category" style="margin-bottom: 15px; font-size: 18px; font-weight: bold; color: #1a8917;"></div>
+
+        <h3>Upload Your Files</h3>
+        <p style="font-size: 14px; color: #555; margin-bottom: 15px;">
+          📌 Please upload <strong>two files</strong> in <strong>.csv</strong> or <strong>.xlsx</strong> format.  
+          Ensure both files belong to the <strong>same category</strong> and represent different time periods (e.g., March vs April).
+        </p>
+
+        <input type="file" id="file1" accept=".csv,.xlsx" /><br /><br />
+        <input type="file" id="file2" accept=".csv,.xlsx" /><br /><br />
+        <button class="upload-btn" id="upload-btn">Upload</button>
+      </div>
+
+      <!-- INSIGHT RESULT BOX -->
+      <div id="insight-box" class="insight-box hidden" aria-live="polite" role="region" aria-label="Insight results">
+        <h3>Insight Summary</h3>
+        <p id="insight-text"></p>
+        <button id="show-chart-btn">Show Insight Chart</button>
+        <canvas id="insight-chart" class="hidden" style="max-width: 600px; margin-top: 20px;"></canvas>
+      </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2025 InsightIQ. All rights reserved.</p>
+    </footer>
+
+  </div>
+</body>
+</html>

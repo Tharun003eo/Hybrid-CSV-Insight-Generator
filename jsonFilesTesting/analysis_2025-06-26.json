@@ -1,0 +1,72 @@
+{
+  "summary": {
+    "file1_total": 843833.0,
+    "file2_total": 629755.0,
+    "percent_change": -25.37,
+    "status": "decreased"
+  },
+  "increased_units": [],
+  "increased_revenue": [],
+  "decreased_revenue": [
+    {
+      "product": "Headphones",
+      "decrease_amount": 41729,
+      "previous_total": 164465,
+      "current_total": 122736
+    },
+    {
+      "product": "Webcam",
+      "decrease_amount": 27858,
+      "previous_total": 109802,
+      "current_total": 81944
+    },
+    {
+      "product": "USB Drive",
+      "decrease_amount": 23282,
+      "previous_total": 91764,
+      "current_total": 68482
+    },
+    {
+      "product": "Keyboard",
+      "decrease_amount": 22892,
+      "previous_total": 90227,
+      "current_total": 67335
+    },
+    {
+      "product": "Mouse",
+      "decrease_amount": 22665,
+      "previous_total": 89333,
+      "current_total": 66668
+    },
+    {
+      "product": "Speaker",
+      "decrease_amount": 17470,
+      "previous_total": 68858,
+      "current_total": 51388
+    },
+    {
+      "product": "Monitor",
+      "decrease_amount": 16086,
+      "previous_total": 63404,
+      "current_total": 47318
+    },
+    {
+      "product": "Microphone",
+      "decrease_amount": 15391,
+      "previous_total": 60662,
+      "current_total": 45271
+    },
+    {
+      "product": "Printer",
+      "decrease_amount": 15285,
+      "previous_total": 60245,
+      "current_total": 44960
+    },
+    {
+      "product": "Laptop",
+      "decrease_amount": 9885,
+      "previous_total": 38960,
+      "current_total": 29075
+    }
+  ]
+}

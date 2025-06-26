@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drive | InsightIQ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    /* === RESET & BASE === */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+      overflow-x: hidden;
+      height: 100%;
+    }
+
+    .page-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    /* === TOP NAVIGATION === */
+    .top-nav {
+      background-color: #121212;
+      color: #fff;
+      padding: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: 20vh;
+    }
+
+    .nav-left {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .title-group .title {
+      font-size: 2.3rem;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      opacity: 0.85;
+    }
+
+    /* === MAIN CONTENT === */
+    .main-body {
+      flex: 1;
+      padding: 5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: url('../assets/bg.jpg') no-repeat center center;
+      background-size: cover;
+    }
+
+    .main-body h1 {
+      font-size: 2.5rem;
+      color: #121212;
+      margin-bottom: 1rem;
+    }
+
+    .main-body p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+
+    .icon {
+      font-size: 3.5rem;
+      color: #10b981;
+      margin-bottom: 1rem;
+    }
+
+    .back-btn {
+      padding: 0.8rem 1.8rem;
+      background-color: #10b981;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s ease-in-out;
+    }
+
+    .back-btn:hover {
+      background-color: #0e9e6e;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <!-- 🔼 Top Nav Bar -->
+    <div class="top-nav">
+      <div class="nav-left">
+        <img src="assets/logo.png" alt="Logo" class="logo" />
+        <div class="title-group">
+          <div class="title">InsightIQ</div>
+          <div class="tagline">Smart Analytics for Smarter Decisions</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 🔽 Main Content -->
+    <div class="main-body">
+      <div class="icon">🚧</div>
+      <h1>This Page is Under Construction</h1>
+      <p>We're building something amazing here! Stay tuned for updates.</p>
+      <button class="back-btn" onclick="window.location.href='index.html'">⬅ Back to Home</button>
+    </div>
+  </div>
+</body>
+</html>

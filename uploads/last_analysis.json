@@ -1,0 +1,108 @@
+{
+  "chart": {
+    "values": [
+      629755.0,
+      851148.0
+    ]
+  },
+  "increased_units": [
+    {
+      "product": "Speaker",
+      "increase_amount": 554,
+      "previous_total": 317,
+      "current_total": 871
+    },
+    {
+      "product": "Headphones",
+      "increase_amount": 399,
+      "previous_total": 589,
+      "current_total": 988
+    },
+    {
+      "product": "Laptop",
+      "increase_amount": 195,
+      "previous_total": 247,
+      "current_total": 442
+    },
+    {
+      "product": "Mouse",
+      "increase_amount": 110,
+      "previous_total": 344,
+      "current_total": 454
+    },
+    {
+      "product": "Printer",
+      "increase_amount": 96,
+      "previous_total": 349,
+      "current_total": 445
+    },
+    {
+      "product": "Microphone",
+      "increase_amount": 72,
+      "previous_total": 394,
+      "current_total": 466
+    },
+    {
+      "product": "Monitor",
+      "increase_amount": 3,
+      "previous_total": 417,
+      "current_total": 420
+    }
+  ],
+  "increased_revenue": [
+    {
+      "product": "Speaker",
+      "increase_amount": 83365,
+      "previous_total": 51388,
+      "current_total": 134753
+    },
+    {
+      "product": "Headphones",
+      "increase_amount": 34321,
+      "previous_total": 122736,
+      "current_total": 157057
+    },
+    {
+      "product": "Microphone",
+      "increase_amount": 30546,
+      "previous_total": 45271,
+      "current_total": 75817
+    },
+    {
+      "product": "Monitor",
+      "increase_amount": 27100,
+      "previous_total": 47318,
+      "current_total": 74418
+    },
+    {
+      "product": "USB Drive",
+      "increase_amount": 26429,
+      "previous_total": 68482,
+      "current_total": 94911
+    },
+    {
+      "product": "Laptop",
+      "increase_amount": 24667,
+      "previous_total": 29075,
+      "current_total": 53742
+    },
+    {
+      "product": "Mouse",
+      "increase_amount": 4392,
+      "previous_total": 66668,
+      "current_total": 71060
+    },
+    {
+      "product": "Printer",
+      "increase_amount": 2061,
+      "previous_total": 44960,
+      "current_total": 47021
+    },
+    {
+      "product": "Keyboard",
+      "increase_amount": 1368,
+      "previous_total": 67335,
+      "current_total": 68703
+    }
+  ]
+}
